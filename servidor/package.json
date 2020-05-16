@@ -1,0 +1,24 @@
+{
+    "name": "mernstaskservidor",
+    "version": "1.0.0",
+    "description": "MERN API para MERN TASKS",
+    "main": "index.js",
+    "scripts": {
+        "start": "node .",
+        "dev": "nodemon ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "udemy-MERNTasks"
+    },
+    "author": "Marc Cuenca",
+    "license": "ISC",
+    "devDependencies": {
+        "nodemon": "^2.0.3"
+    },
+    "dependencies": {
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "mongoose": "^5.9.14"
+    }
+}
